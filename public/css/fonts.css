@@ -1,0 +1,11 @@
+/* font face */
+
+@font-face {
+  font-family: "Roboto";
+  src: "../fonts/Roboto";
+}
+
+@font-face {
+  font-family: "Yanone Kaffeesatz";
+  src: "../fonts/Yanone_Kaffeesatz";
+}

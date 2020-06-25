@@ -1,0 +1,466 @@
+/* import fonts from fonts.css file */
+
+@import url(./fonts.css);
+@import url(./partials/_variables.css);
+@import url(./partials/_global.css);
+
+.site-main {
+  background: url(../img/body-bg.png);
+  filter: brightness(1);
+}
+
+/* start navigation */
+
+.header_area .main-menu .navbar {
+  padding-left: 5%;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+}
+
+.header_area .main-menu .navbar .navbar-brand {
+  padding-left: 2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.navbar-light .navbar-toggler {
+  margin-right: 1rem;
+}
+
+.header_area .main-menu .nav-item .nav-link {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 22px;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding-right: 2rem;
+  color: #071138;
+  letter-spacing: 1px;
+  transition: transform 0.4s ease;
+}
+
+.header_area .main-menu .navbar-nav .active a {
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  transition: transform 0.4s ease-in-out;
+}
+
+.header_area .main-menu .navbar-nav a:hover {
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+
+  transform: scale(1.1);
+}
+
+/* end navigation */
+
+/* banner area start */
+
+/* .site-main .site-banner {
+  background: url(../img/banner/home-banner.png) no-repeat 0% 50%;
+} */
+
+.site-main .site-banner {
+  margin-top: 3rem;
+}
+.site-main .site-banner .site-title h3 {
+  padding-top: 35%;
+  font-weight: 500;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+}
+
+.site-main .site-banner .site-title h3::after {
+  content: "";
+  height: 2px;
+  width: 18vw;
+  background: black;
+  display: inline-block;
+  margin-left: 5%;
+  transform: translateY(-10px);
+}
+
+.site-main .site-banner .site-title h4 {
+  font-size: 5rem;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 10px;
+}
+
+.site-main .site-banner .site-title h3 {
+  font-size: 2.7rem;
+}
+
+.site-main .site-banner .site-title h4 {
+  font-size: 2.7rem;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+}
+
+.site-main .site-banner .banner-image > img {
+  padding: 7rem 0;
+  width: 90rem;
+}
+
+.title-text {
+  font: normal 50px/72px;
+}
+/* banner area end */
+
+/* start about area */
+
+.site-main .about-area {
+  padding: 8rem 5 rem;
+}
+.site-main .about-area .about-title h2 > span {
+  display: block;
+  font: normal 49px/60px "Yanone Kaffeesatz";
+  letter-spacing: 22px;
+}
+
+/* end about area */
+
+/* start brand area */
+
+.site-main .brand-area {
+  padding: 1rem 5rem;
+  margin-bottom: 1rem;
+}
+
+.site-main .brand-area .first-row .col-lg-4 {
+  display: flex;
+  justify-content: center;
+}
+
+.site-main .brand-area .first-row .col-lg-4 > .single-brand {
+  border: 2px solid var(--primary-color2);
+  text-align: center;
+  padding: 0.9rem 0rem;
+  margin: 0.9rem 0rem;
+  width: 190px;
+  height: 100px;
+  cursor: pointer;
+  transition: transform 0.4s ease;
+  border-radius: 15px;
+}
+.site-main .brand-area .first-row .col-lg-4 > .single-brand > a {
+  color: inherit;
+  text-decoration: none;
+  font-family: "Yanone Kaffeesatz";
+  font-size: 22px;
+}
+.site-main .brand-area .first-row .col-lg-4 > .single-brand > a > img {
+  width: 64px;
+  height: 64px;
+}
+
+.site-main .brand-area .first-row .col-lg-4 > .single-brand:hover {
+  box-shadow: var(--box-shadow);
+  transform: scale(1.1);
+  border-radius: 15px;
+}
+
+.site-main .brand-area .experience-area {
+  padding-left: 1rem;
+}
+
+.site-main .brand-area .experience-area span {
+  display: block;
+}
+
+.site-main .brand-area .experience-area .years-area {
+  background: url(../img/client-info-bg.png) no-repeat 45px 20px;
+  padding-left: 2rem 0rem;
+  width: 40rem;
+  height: 18rem;
+  padding-left: 10rem;
+  position: relative;
+  padding-top: 2.5rem;
+}
+
+.site-main .brand-area .experience-area .bg-panel {
+  position: absolute;
+  top: -190px;
+  top: 0%;
+  background: #f3edf5;
+  width: 400px;
+  height: 400px;
+  margin-left: 100px;
+  z-index: -1;
+}
+
+.site-main .brand-area .experience-area .years-area .years {
+  font: normal 84px/40px "Yanone Kaffeesatz";
+  color: var(--primary-color2);
+  z-index: 2;
+}
+
+.site-main .brand-area .experience-area .years-area h2 > span {
+  font: normal 50px/70px "Yanone Kaffeesatz";
+}
+
+.site-main .brand-area .experience-area .call-area {
+  padding-left: 12rem;
+}
+
+.site-main .brand-area .experience-area .call-area img {
+  height: 48px;
+  width: 42px;
+  padding-right: 10px;
+}
+
+/* end brand area */
+
+/* services area */
+
+.site-main .services-area {
+  padding: 7rem 2rem;
+}
+
+.site-main .services-area .services-title {
+  padding: 0rem 14rem;
+}
+
+.site-main .services-area .services-title h1 {
+  font-size: 45px;
+  padding-top: 0rem;
+  font-family: "Yanone Kaffeesatz";
+}
+
+.site-main .services-area .services {
+  width: 25rem;
+  margin: 5rem 0;
+  transition: transform 0.4s ease;
+  border: 3px solid var(--border-color);
+  border-radius: 15px;
+  height: 23rem;
+}
+
+.site-main .services-area .services .card-body {
+  padding-top: 0rem;
+}
+
+.site-main .services-area .services:hover {
+  background: #f1f1fa;
+  box-shadow: var(--box-shadow);
+  transform: scale(1.1);
+}
+
+.site-main .services-area .services-list .col-lg-3 {
+  display: flex;
+}
+
+/* end services area */
+
+/* start projects area */
+
+.site-main .project-area {
+  padding: 4rem 0;
+  padding-top: 0;
+}
+
+.site-main .project-area .button-group button {
+  background: transparent;
+  border: none;
+  font: normal 500 25px/130px "Yanone Kaffeesatz";
+  /* text-transform: uppercase; */
+  padding-left: 10px;
+  padding-right: 10px;
+  transition: transform 0.2s ease-in;
+}
+
+.site-main .project-area .button-group button + button {
+  padding-left: 3rem;
+}
+
+.site-main .project-area .button-group button:hover {
+  color: var(--primary-color);
+  transform: scale(1.2);
+}
+
+.site-main .project-area .grid .our-project .title h4 {
+  font: normal 25px/12px "Yanone Kaffeesatz";
+}
+
+.site-main .project-area .grid .our-project .img img {
+  background-size: cover;
+  background-position: top;
+  border-radius: 25px;
+  border: 3px solid #c3acf1;
+}
+
+.site-main .project-area .grid .our-project .img img:hover {
+  filter: brightness(1.07) drop-shadow(1px 8px 30px #b1afaf);
+  border-radius: 25px;
+  cursor: pointer;
+  border: none;
+}
+
+/* end projects area */
+
+/* start clients area */
+
+.site-main .client-area {
+  margin-top: 5rem;
+}
+.site-main .client-area .about-title p {
+  padding: 1rem 4rem;
+}
+
+.site-main .client-area .client {
+  background: #ffffff10;
+  box-shadow: var(--box-shadow);
+  margin: 3rem 0rem;
+  margin-top: 1.5rem;
+  border-radius: 20px;
+}
+
+.site-main .client-area .client .client-img {
+  padding: 2rem;
+}
+
+.site-main .client-area .client .client-img img {
+  height: 100px;
+  width: 200px;
+  border-radius: 20px;
+}
+
+.site-main .client-area .client .about-client {
+  padding-top: 1rem;
+}
+
+.site-main .client-area .client .about-client h4 {
+  font: normal 25px/40px "Yanone Kaffeesatz";
+  letter-spacing: 1px;
+}
+
+.site-main .client-area .client .about-client p {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.site-main .client-area .owl-carousel .owl-item {
+  display: flex;
+  justify-content: center;
+  padding: 1.5rem;
+}
+
+.site-main .client-area .owl-carousel .owl-dots .owl-dot.active span {
+  background: var(--primary-color);
+  width: 12px;
+  height: 12px;
+}
+/* end clients area */
+
+/* subscribe me area */
+
+/* .site-main .subscribe-us-area .subscribe {
+  background: url(../img/subscribe-bg.png) no-repeat;
+  padding: 7rem 0;
+  margin-left: 3rem;
+  margin-left: 6rem;
+}
+
+.site-main .subscribe-us-area .subscribe .subscribe-title h4 {
+  font: normal 30px/30px "Yanone Kaffeesatz";
+  color: whitesmoke;
+}
+
+.site-main .subscribe-us-area .subscribe .subscribe-title p {
+  color: whitesmoke;
+  padding: 1rem 4rem;
+}
+
+.site-main .subscribe-us-area .subscribe form .input-textbox input {
+  width: 400px;
+  padding: 1.5rem 1rem;
+  border: 2px solid whitesmoke;
+  background: transparent;
+  color: whitesmoke;
+  font: normal 25px/20px "Yanone Kaffeesatz";
+}
+
+.site-main
+  .subscribe-us-area
+  .subscribe
+  form
+  .input-textbox
+  input::placeholder {
+  color: whitesmoke;
+}
+
+.site-main .subscribe-us-area .subscribe form .btn-submit button {
+  background: whitesmoke;
+  color: #000;
+  padding: 0.7rem 2rem;
+} */
+
+/* subscribe me area end */
+
+/* footer area */
+
+footer.footer-area {
+  padding: 5rem 0;
+  background: url(../img/footer-bg.png);
+  padding-top: 1.5rem;
+}
+
+footer.footer-area .social > h5 {
+  font: normal 35px/30px "Yanone Kaffeesatz";
+  margin-top: 2rem;
+}
+
+footer.footer-area .social a > i {
+  font-size: 30px;
+  padding: 2rem;
+  color: var(--primary-color2);
+  transition: transform 0.4s ease;
+}
+
+footer.footer-area .social a > i:hover {
+  transform: scale(1.5);
+}
+
+#fb:hover {
+  color: #3181ed;
+}
+#insta:hover {
+  color: #f24e59;
+}
+#twitter:hover {
+  color: #399dec;
+}
+#gh:hover {
+  color: #313030;
+}
+
+/* .cursor {
+  display: inline-block;
+  width: 3px;
+  background-color: black;
+  margin-left: 0.5rem;
+  animation: blink 1s infinite;
+}
+.cursor .typing {
+  animation: none;
+}
+
+@keyframes blink {
+  0% {
+    background-color: black;
+  }
+  49% {
+    background-color: black;
+  }
+  50% {
+    background-color: transparent;
+  }
+  99% {
+    background-color: transparent;
+  }
+  100% {
+    background-color: black;
+  }
+} */
+
+/* end footer area */

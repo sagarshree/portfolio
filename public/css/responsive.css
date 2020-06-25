@@ -1,0 +1,185 @@
+/* if the viewport is equal to 340px or less than that */
+@media only screen and (max-width: 340px) {
+  .header_area .main-menu .navbar,
+  .header_area .main-menu .navbar .navbar-brand,
+  .site-main .services-area {
+    padding: 2%;
+    margin: 0%;
+  }
+
+  .site-main .brand-area .experience-area .years-area h2 > span {
+    font: normal 50px/70px "Yanone Kaffeesatz";
+    font-size: 35px;
+  }
+
+  .site-main .site-banner .site-title h1 {
+    font-size: 41px;
+  }
+
+  .site-main > .services-area .services {
+    width: 13rem;
+  }
+  .para {
+    text-align: justify;
+  }
+  .site-main .project-area .grid .our-project .img img {
+    width: 99%;
+  }
+  .about-area .paragraph .para {
+    text-align: justify;
+  }
+  .site-main .brand-area .experience-area .bg-panel {
+    width: 99%;
+  }
+  .site-main .brand-area .experience-area .bg-panel {
+    margin-left: 0%;
+    height: 100%;
+  }
+
+  .container {
+    width: 100%;
+    padding-left: 0;
+    margin-right: 0;
+    margin-left: auto;
+    padding-top: 5rem;
+  }
+  .site-main .project-area .button-group button + button {
+    padding-left: 0;
+    font-size: 20px;
+  }
+}
+
+/* if the viewport is equal to 340px or less than that */
+@media only screen and (max-width: 999px) {
+  .site-main .about-area .about-title h2 > span {
+    font-size: 31px;
+    letter-spacing: 10px;
+  }
+  .navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+    align-items: center;
+    padding-left: 80%;
+    padding-right: 5%;
+  }
+
+  .site-main .brand-area .experience-area .years-area {
+    padding-left: 1%;
+    width: 49%;
+  }
+
+  .site-main .brand-area .experience-area .bg-panel {
+    margin-left: 0%;
+    width: 90%;
+  }
+
+  .site-main .brand-area .experience-area .call-area {
+    padding-left: 3%;
+  }
+
+  .site-main .about-area .about-title p {
+    padding: 0%;
+  }
+
+  .site-main .subscribe-us-area .subscribe form .input-textbox input {
+    width: 20rem;
+    margin: 5%;
+  }
+
+  .site-main .project-area .grid .our-project .img img {
+    width: 99%;
+  }
+
+  .site-main .client-area .client .client-img img {
+    height: 170px;
+    width: 200px;
+    border-radius: 20px;
+  }
+  .site-main .services-area .services {
+    margin-bottom: 0;
+  }
+  .site-main .client-area .client .about-client {
+    text-align: center;
+  }
+  .site-main .client-area .client .client-img img {
+    height: 170px;
+    width: 215px;
+  }
+  .site-main .about-area .about-title h2 > span {
+    font-size: 45px;
+    letter-spacing: 15px;
+    text-align: center;
+  }
+  .site-main .site-banner .site-title h3 {
+    padding-top: 10%;
+  }
+  .button.secondary-button {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  .site-main .brand-area .experience-area .years-area {
+    padding-left: 24%;
+  }
+  .site-main .brand-area .experience-area .call-area {
+    padding-left: 25%;
+  }
+  .site-main .client-area .client .client-img img {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .site-main .client-area .client .client-img img {
+    height: 48%;
+  }
+}
+
+/* if the viewport is equal to 1910px or less than that */
+@media only screen and (max-width: 1910px) {
+  .header_area .main-menu .navbar {
+    padding: 1rem;
+  }
+
+  .container {
+    max-width: 90%;
+  }
+
+  .site-main .brand-area,
+  .site-main .services-area .services-title,
+  .site-main .about-area {
+    padding: 3% 4%;
+  }
+
+  .header_area .main-menu .navbar {
+    padding: 0;
+  }
+  .site-main .project-area .grid .our-project .img img {
+    background-size: cover;
+    background-position: top;
+    border-radius: 20px;
+    width: 99%;
+  }
+  .site-main .client-area .client .about-client h4 {
+    text-align: center;
+  }
+  .site-main .client-area .client .about-client h4 {
+    font: normal 25px/40px "Yanone Kaffeesatz";
+    letter-spacing: 1px;
+    text-align: center;
+  }
+  .site-main .client-area .client .about-client p {
+    text-align: center;
+  }
+  .site-main .client-area .client .client-img img {
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+  }
+
+  .site-main .client-area .client .about-client h4 {
+    font: normal 23px/40px "Yanone Kaffeesatz";
+    letter-spacing: 1px;
+    text-align: center;
+  }
+}
